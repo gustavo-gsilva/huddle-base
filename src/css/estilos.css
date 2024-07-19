@@ -1,0 +1,94 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    padding: 6rem;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container .conteudo {
+    display: flex;
+    gap: 5rem;
+}
+
+.container img.logo {
+    max-width: 24rem;
+}
+
+.container img.ilustracao {
+    max-width: 75rem;
+    max-height: 60rem;
+}
+
+.container h2.titulo {
+    font-size: 4rem;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.container p.descricao {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.container div.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container button.btn-register {
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    color: hsl(257, 40%, 49%);
+    padding: 1.5rem 2rem;
+    max-width: 15rem;
+}
+
+.container button.btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+.container .rodape .fa-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid aliceblue;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    max-width: 3rem;
+    max-height: 3rem;
+    padding: 2.4rem 2.5rem;
+    color: aliceblue;
+}
+
+.container .rodape .fa-brands:hover {
+    border: 0.2rem solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
+.container .rodape .fa-facebook-f {
+    max-width: 3rem;
+    max-height: 3rem;
+}

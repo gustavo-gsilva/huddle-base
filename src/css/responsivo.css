@@ -1,0 +1,99 @@
+@media (max-width: 1070px) {
+    div.container {
+        padding-left: 3.5rem;
+    }
+
+    .container .conteudo {
+        flex-direction: column;
+    }
+
+    .container img.ilustracao {
+        max-width: 70rem;
+        max-height: 50rem;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+    }
+
+    div.container {
+        display: flex;
+        gap: 4rem;
+        padding-right: 2rem;
+        padding-left: 0;
+    }
+
+    .container img.logo {
+        max-width: 18rem;
+    }
+
+    .container div.informacoes {
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    .container h2.titulo {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .container p.descricao {
+        font-weight: 400;
+    }
+
+    .container button.btn-register {
+        font-weight: 400;
+        padding: 1.5rem 3rem;
+        max-width: 22rem;
+        margin-left: 5rem;
+    }
+
+    .container .rodape {
+        padding-right: 2.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .rodape .fa-brands {
+        font-size: 1.8rem;
+        padding: 2rem 2rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+    }
+
+    div.container {
+        display: flex;
+        gap: 4rem;
+        padding-left: 0;
+    }
+
+    .container img.logo {
+        max-width: 18rem;
+    }
+
+    .container button.btn-register {
+        font-weight: 400;
+        padding: 1.5rem 3rem;
+        max-width: 22rem;
+        margin: 0;
+    }
+
+    .container .rodape {
+        padding-right: 2.5rem;
+    }
+
+    .container .rodape .fa-brands {
+        font-size: 1.8rem;
+        padding: 2rem 2rem;
+        margin-top: 2rem;
+    }
+}
